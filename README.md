@@ -1,6 +1,6 @@
-# Handbrake Puppet Module for Boxen
+# HandBrake Puppet Module for Boxen
 
-Install [Handbrake](http://handbrake.fr), a video transcoder.
+Install [HandBrake](http://handbrake.fr), a video transcoder.
 
 ## Usage
 
