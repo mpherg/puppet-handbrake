@@ -1,6 +1,6 @@
 # Handbrake Puppet Module for Boxen
 
-Requires the `boxen` puppet module.
+Install [Handbrake](http://handbrake.fr), a video transcoder.
 
 ## Usage
 
@@ -8,8 +8,11 @@ Requires the `boxen` puppet module.
 include handbrake
 ```
 
-## Developing
+## Required Puppet Modules
 
-Write code.
+* `boxen`
 
-Run `script/cibuild`.
+## Development
+
+Write code. Run `script/cibuild` to test it. Check the `script`
+directory for other useful tools.
