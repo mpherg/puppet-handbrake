@@ -4,7 +4,7 @@
 #
 #   include handbrake
 class handbrake {
-  $version = '0.9.8'
+  $version = '0.9.9'
 
   package { 'HandBrake':
     provider => 'appdmg',
