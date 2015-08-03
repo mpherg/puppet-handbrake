@@ -4,10 +4,10 @@
 #
 #   include handbrake
 class handbrake {
-  $version = '0.9.9'
+  $version = '0.10.2'
 
   package { 'HandBrake':
     provider => 'appdmg',
-    source   => "http://sourceforge.net/projects/handbrake/files/${version}/HandBrake-${version}-MacOSX.6_GUI_x86_64.dmg",
+    source   => 'https://handbrake.fr/rotation.php?file=HandBrake-0.10.2-MacOSX.6_GUI_x86_64.dmg',
   }
 }
