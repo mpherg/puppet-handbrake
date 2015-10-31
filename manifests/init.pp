@@ -3,11 +3,9 @@
 # Examples
 #
 #   include handbrake
-class handbrake {
-  $version = '0.10.2'
-
+class handbrake($version = '0.10.1') {
   package { 'HandBrake':
     provider => 'appdmg',
-    source   => 'https://handbrake.fr/rotation.php?file=HandBrake-0.10.2-MacOSX.6_GUI_x86_64.dmg',
+    source   => "http://download.handbrake.fr/handbrake/releases/${version}/HandBrake-${version}-MacOSX.6_GUI_x86_64.dmg",
   }
 }
